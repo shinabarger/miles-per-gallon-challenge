@@ -1,4 +1,4 @@
-import averager.GetAverage;
+import jar.Jar;
 
 public class Main {
 
@@ -8,9 +8,9 @@ public class Main {
 
         //GasMileage.main();
 
-        GetAverage.main();
+        //GetAverage.main();
 
-
+        Jar.main();
 
 
     }
