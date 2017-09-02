@@ -1,5 +1,6 @@
 import averager.GetAverage;
 import gas_mileage.GasMileage;
+import jar.Jar;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -78,6 +79,13 @@ public class UnitTests {
         String expected = "16.67";
         String actual = GetAverage.calculateAverage(11, 15, 24);
         assertEquals(expected, actual);
+    }
+
+    @Test
+    public void returns25CentsFor1Quarter() {
+        double expected = 0.25;
+        double actual = Jar.calculateQuarterAmount(1);
+        assertEquals(expected, actual, 0.01);
     }
 
 }
