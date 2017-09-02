@@ -16,8 +16,8 @@ public class Jar {
         double nickels;
         double pennies;
         String totalAmount = null;
-        String totalDollarAmount = null;
-        String totalCentsAmount = null;
+        int totalDollarAmount = 0;
+        int totalCentsAmount = 0;
 
         Scanner scan = new Scanner(System.in);
 
@@ -36,7 +36,15 @@ public class Jar {
 
         totalAmount = Jar.calculateJarTotal(quarters, nickels, dimes, pennies);
 
-        System.out.println("The jar contains " + totalDollarAmount + " and " + totalCentsAmount + " cents.");
+        System.out.println("Total amount is $" + totalAmount + ".");
+
+        //extract dollar amount
+        totalDollarAmount = Integer.parseInt(totalAmount.substring(0, totalAmount.indexOf('.')));
+
+        //extract cents amount
+        totalCentsAmount = Integer.parseInt(totalAmount.substring(totalAmount.indexOf('.') + 1));
+
+        System.out.println("The jar contains precisely " + totalDollarAmount + " dollars and " + totalCentsAmount + " cents.");
 
 
     }
