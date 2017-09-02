@@ -1,5 +1,6 @@
 package averager;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /**
@@ -12,29 +13,31 @@ public class GetAverage {
     }
 
     private static void runInstructions() {
-        int firstNumber;
-        int secondNumber;
-        int thirdNumber;
-        double average = 0.0;
+        double firstNumber;
+        double secondNumber;
+        double thirdNumber;
+        String average;
 
         Scanner scan = new Scanner(System.in);
 
         System.out.println("We're gonna figure out three numbers. Enter your first number.");
-        firstNumber = Integer.parseInt(scan.nextLine());
+        firstNumber = scan.nextDouble();
 
         System.out.println("Enter your second number: ");
-        secondNumber = Integer.parseInt(scan.nextLine());
+        secondNumber = scan.nextDouble();
 
         System.out.println("Enter your third number to average: ");
-        thirdNumber = Integer.parseInt(scan.nextLine());
+        thirdNumber = scan.nextDouble();
 
         average = calculateAverage(firstNumber, secondNumber, thirdNumber);
         System.out.println("Your average is " + average);
 
     }
-    public static double calculateAverage(int firstNumber, int secondNumber, int thirdNumber) {
+    public static String calculateAverage(double firstNumber, double secondNumber, double thirdNumber) {
         double average = (firstNumber + secondNumber + thirdNumber) / 3;
-        return average;
+        DecimalFormat decimalFormat = new DecimalFormat("0.00");
+        average = Double.parseDouble(decimalFormat.format(average));
+        return String.valueOf(average);
     }
 
 }

@@ -54,16 +54,30 @@ public class UnitTests {
 
     @Test
     public void returnsAverageAs1() {
-        double expected = 1.0;
-        double actual = GetAverage.calculateAverage(1, 1,1);
-        assertEquals(expected, actual, 1);
+        String expected = "1.0";
+        String actual = GetAverage.calculateAverage(1, 1, 1);
+        assertEquals(expected, actual);
     }
 
     @Test
     public void returnsAverageAs15() {
-        double expected = 15.0;
-        double actual = GetAverage.calculateAverage(10, 15,20);
-        assertEquals(expected, actual, 1);
+        String expected = "15.0";
+        String actual = GetAverage.calculateAverage(10, 15, 20);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void returnsAverageAs1667() {
+        String expected = "16.67";
+        String actual = GetAverage.calculateAverage(11, 15, 24);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void returnsAverageAs1667asString() {
+        String expected = "16.67";
+        String actual = GetAverage.calculateAverage(11, 15, 24);
+        assertEquals(expected, actual);
     }
 
 }
