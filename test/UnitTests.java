@@ -59,5 +59,12 @@ public class UnitTests {
         assertEquals(expected, actual, 1);
     }
 
+    @Test
+    public void returnsAverageAs15() {
+        double expected = 15.0;
+        double actual = GetAverage.calculateAverage(10, 15,20);
+        assertEquals(expected, actual, 1);
+    }
+
 }
 
