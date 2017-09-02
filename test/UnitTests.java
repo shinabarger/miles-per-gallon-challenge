@@ -89,9 +89,16 @@ public class UnitTests {
     }
 
     @Test
-    public void returns1CentsFor1Penny() {
+    public void returns10CentsFor1Dime() {
         double expected = 0.10;
         double actual = Jar.calcualateDimeAmount(1);
+        assertEquals(expected, actual, 0.01);
+    }
+
+    @Test
+    public void returns5CentsFor1Nickel() {
+        double expected = 0.05;
+        double actual = Jar.calcualateNickelAmount(1);
         assertEquals(expected, actual, 0.01);
     }
 
