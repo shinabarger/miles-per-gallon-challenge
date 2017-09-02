@@ -10,6 +10,7 @@ public class Jar {
     public static void main() {
         Jar.runProgram();
     }
+
     private static void runProgram() {
         double quarters;
         double dimes;
@@ -47,6 +48,7 @@ public class Jar {
         System.out.println("The jar contains precisely " + totalDollarAmount + " dollars and " + totalCentsAmount + " cents.");
 
     }
+
     public static String calculateJarTotal(double quarters, double nickels, double dimes, double pennies) {
         double totalAmount = 0.0;
         String total;

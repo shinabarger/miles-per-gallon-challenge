@@ -5,5 +5,13 @@ package make_change;
  */
 public class MakeChange {
 
+    private static void runTheInstructions() {
+
+    }
+
+    public void main() {
+
+        MakeChange.runTheInstructions();
+    }
 
 }
