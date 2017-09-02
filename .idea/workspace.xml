@@ -35,8 +35,8 @@
       <file leaf-file-name="UnitTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/UnitTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="99" column="31" lean-forward="true" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+            <state relative-caret-position="461">
+              <caret line="107" column="54" lean-forward="false" selection-start-line="107" selection-start-column="54" selection-end-line="107" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -309,7 +309,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.UnitTests.returns5CentsFor1Nickel">
+  <component name="RunManager" selected="JUnit.UnitTests.returns1CentsFor1Penny">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -791,8 +791,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UnitTests.returns5CentsFor1Nickel" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTests.returns1CentsFor1Penny" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UnitTests.returns1CentsFor1Penny" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTests.returns5CentsFor1Nickel" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.UnitTests.returns25CentsFor1Quarter" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.UnitTests.returnsAverageAs1667asString" />
         <item index="4" class="java.lang.String" itemvalue="Application.Main" />
@@ -809,7 +809,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504310137413</updated>
-      <workItem from="1504310138875" duration="7806000" />
+      <workItem from="1504310138875" duration="7844000" />
     </task>
     <servers />
   </component>
@@ -835,8 +835,8 @@
     <history-entry file="UnitTests_returns25CentsFor1Quarter - 2017.09.02 at 10h 40m 34s.xml">
       <configuration name="UnitTests.returns25CentsFor1Quarter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTests_returnsAverageAs1667 - 2017.09.02 at 10h 12m 58s.xml">
-      <configuration name="UnitTests.returnsAverageAs1667" configurationId="JUnit" />
+    <history-entry file="UnitTests_returns5CentsFor1Nickel - 2017.09.02 at 10h 42m 49s.xml">
+      <configuration name="UnitTests.returns5CentsFor1Nickel" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UnitTests_returnsAverageAs1667asString - 2017.09.02 at 10h 13m 03s.xml">
       <configuration name="UnitTests.returnsAverageAs1667asString" configurationId="JUnit" />
@@ -846,7 +846,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7806000" />
+    <option name="totallyTimeSpent" value="7844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -965,8 +965,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/UnitTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="99" column="31" lean-forward="true" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+        <state relative-caret-position="461">
+          <caret line="107" column="54" lean-forward="false" selection-start-line="107" selection-start-column="54" selection-end-line="107" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

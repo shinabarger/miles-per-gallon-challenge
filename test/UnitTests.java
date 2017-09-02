@@ -102,5 +102,12 @@ public class UnitTests {
         assertEquals(expected, actual, 0.01);
     }
 
+    @Test
+    public void returns1CentsFor1Penny() {
+        double expected = 0.01;
+        double actual = Jar.calcualatePenniesAmount(1);
+        assertEquals(expected, actual, 0.01);
+    }
+
 }
 
