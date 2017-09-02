@@ -37,7 +37,7 @@ public class MakeChange {
         System.out.println("Total change to give back to customer is " + totalChangeToGive + ".");
 
         dollarsToReturn = calculateTotalDollarsToReturn(totalChangeToGive);
-        totalChangeToGive = totalChangeToGive - (dollarsToReturn * 1.00);
+        totalChangeToGive = totalChangeToGive - dollarsToReturn;
 
         quartersToReturn = calculateQuartersToReturn(totalChangeToGive);
 
@@ -51,8 +51,7 @@ public class MakeChange {
 
     }
 
-
-    public static int calculateTotalDollarsToReturn(double totalChangeToGive) {
+    static int calculateTotalDollarsToReturn(double totalChangeToGive) {
         double temporaryChangeToGive = totalChangeToGive;
         int dollarsToReturn = 0;
         do {
@@ -62,9 +61,14 @@ public class MakeChange {
         return dollarsToReturn;
     }
 
-    public static int calculateQuartersToReturn(double totalChangeToGive) {
-        int quartersToReturn = 0;
+    static int calculateQuartersToReturn(double totalChangeToGive) {
 
+        double temporaryChangeToGive = totalChangeToGive;
+        int quartersToReturn = 0;
+        do {
+            quartersToReturn = quartersToReturn + 1;
+            temporaryChangeToGive = temporaryChangeToGive - 0.25;
+        } while (temporaryChangeToGive >= 0.25);
         return quartersToReturn;
     }
 

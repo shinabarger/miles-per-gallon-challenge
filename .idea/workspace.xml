@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f871888-d5a7-42da-8982-2256810f1d35" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/MakeChangeUnitTests.java" afterPath="$PROJECT_DIR$/src/make_change/MakeChangeUnitTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/make_change/MakeChange.java" afterPath="$PROJECT_DIR$/src/make_change/MakeChange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/make_change/MakeChangeUnitTests.java" afterPath="$PROJECT_DIR$/src/make_change/MakeChangeUnitTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +22,8 @@
       <file leaf-file-name="MakeChangeUnitTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/make_change/MakeChangeUnitTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="116">
+              <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -33,8 +32,8 @@
       <file leaf-file-name="MakeChange.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/make_change/MakeChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="70" column="4" lean-forward="false" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+            <state relative-caret-position="-184">
+              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -100,8 +99,8 @@
         <option value="$PROJECT_DIR$/src/jar/Jar.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/test/MakeChangeUnitTests.java" />
-        <option value="$PROJECT_DIR$/src/make_change/MakeChangeUnitTests.java" />
         <option value="$PROJECT_DIR$/src/make_change/MakeChange.java" />
+        <option value="$PROJECT_DIR$/src/make_change/MakeChangeUnitTests.java" />
       </list>
     </option>
   </component>
@@ -485,22 +484,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MakeChangeUnitTests">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JH1" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MakeChangeUnitTests.totalQuartersToGiveChange">
     <configuration default="false" name="MakeChangeUnitTests.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="JH1" />
@@ -578,6 +562,32 @@
       <option name="MAIN_CLASS_NAME" value="make_change.MakeChangeUnitTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MakeChangeUnitTests.totalQuartersToGiveChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="make_change.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JH1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="make_change" />
+      <option name="MAIN_CLASS_NAME" value="make_change.MakeChangeUnitTests" />
+      <option name="METHOD_NAME" value="totalQuartersToGiveChange" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -964,19 +974,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests.firstTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests.testValidatorForNotEnoughCash" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests.totalDollarsToGiveChange" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests.firstTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests.testValidatorForNotEnoughCash" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests.totalDollarsToGiveChange" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests.totalQuartersToGiveChange" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests.totalDollarsToGiveChange" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests.testValidatorForNotEnoughCash" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests.firstTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests.totalQuartersToGiveChange" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests.totalDollarsToGiveChange" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests.testValidatorForNotEnoughCash" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MakeChangeUnitTests.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -990,44 +1000,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504310137413</updated>
-      <workItem from="1504310138875" duration="11512000" />
+      <workItem from="1504310138875" duration="11884000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MakeChangeUnitTests - 2017.09.02 at 11h 47m 28s.xml">
-      <configuration name="MakeChangeUnitTests" configurationId="JUnit" />
+    <history-entry file="MakeChangeUnitTests_totalQuartersToGiveChange - 2017.09.02 at 11h 50m 08s.xml">
+      <configuration name="MakeChangeUnitTests.totalQuartersToGiveChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakeChangeUnitTests_firstTest - 2017.09.02 at 11h 19m 52s.xml">
-      <configuration name="MakeChangeUnitTests.firstTest" configurationId="JUnit" />
+    <history-entry file="MakeChangeUnitTests_totalQuartersToGiveChange - 2017.09.02 at 11h 50m 34s.xml">
+      <configuration name="MakeChangeUnitTests.totalQuartersToGiveChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakeChangeUnitTests_firstTest - 2017.09.02 at 11h 20m 00s.xml">
-      <configuration name="MakeChangeUnitTests.firstTest" configurationId="JUnit" />
+    <history-entry file="MakeChangeUnitTests_totalQuartersToGiveChange - 2017.09.02 at 11h 50m 43s.xml">
+      <configuration name="MakeChangeUnitTests.totalQuartersToGiveChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakeChangeUnitTests_testValidatorForNotEnoughCash - 2017.09.02 at 11h 23m 33s.xml">
-      <configuration name="MakeChangeUnitTests.testValidatorForNotEnoughCash" configurationId="JUnit" />
+    <history-entry file="MakeChangeUnitTests_totalQuartersToGiveChange - 2017.09.02 at 11h 52m 13s.xml">
+      <configuration name="MakeChangeUnitTests.totalQuartersToGiveChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakeChangeUnitTests_totalDollarsToGiveChange - 2017.09.02 at 11h 37m 27s.xml">
-      <configuration name="MakeChangeUnitTests.totalDollarsToGiveChange" configurationId="JUnit" />
+    <history-entry file="MakeChangeUnitTests_totalQuartersToGiveChange - 2017.09.02 at 11h 52m 25s.xml">
+      <configuration name="MakeChangeUnitTests.totalQuartersToGiveChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakeChangeUnitTests_totalDollarsToGiveChange - 2017.09.02 at 11h 37m 36s.xml">
-      <configuration name="MakeChangeUnitTests.totalDollarsToGiveChange" configurationId="JUnit" />
+    <history-entry file="MakeChangeUnitTests_totalQuartersToGiveChange - 2017.09.02 at 11h 52m 48s.xml">
+      <configuration name="MakeChangeUnitTests.totalQuartersToGiveChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakeChangeUnitTests_totalDollarsToGiveChange - 2017.09.02 at 11h 37m 43s.xml">
-      <configuration name="MakeChangeUnitTests.totalDollarsToGiveChange" configurationId="JUnit" />
+    <history-entry file="MakeChangeUnitTests_totalQuartersToGiveChange - 2017.09.02 at 11h 53m 10s.xml">
+      <configuration name="MakeChangeUnitTests.totalQuartersToGiveChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakeChangeUnitTests_totalDollarsToGiveChange - 2017.09.02 at 11h 37m 52s.xml">
-      <configuration name="MakeChangeUnitTests.totalDollarsToGiveChange" configurationId="JUnit" />
+    <history-entry file="MakeChangeUnitTests_totalQuartersToGiveChange - 2017.09.02 at 11h 53m 19s.xml">
+      <configuration name="MakeChangeUnitTests.totalQuartersToGiveChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakeChangeUnitTests_totalDollarsToGiveChange - 2017.09.02 at 11h 40m 26s.xml">
-      <configuration name="MakeChangeUnitTests.totalDollarsToGiveChange" configurationId="JUnit" />
+    <history-entry file="MakeChangeUnitTests_totalQuartersToGiveChange - 2017.09.02 at 11h 53m 47s.xml">
+      <configuration name="MakeChangeUnitTests.totalQuartersToGiveChange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MakeChangeUnitTests_totalDollarsToGiveChange - 2017.09.02 at 11h 40m 33s.xml">
-      <configuration name="MakeChangeUnitTests.totalDollarsToGiveChange" configurationId="JUnit" />
+    <history-entry file="MakeChangeUnitTests_totalQuartersToGiveChange - 2017.09.02 at 11h 54m 01s.xml">
+      <configuration name="MakeChangeUnitTests.totalQuartersToGiveChange" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11512000" />
+    <option name="totallyTimeSpent" value="11884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -1036,13 +1046,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.502457" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5307692" sideWeight="0.497543" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5307692" sideWeight="0.497543" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.497543" order="-1" side_tool="false" content_ui="tabs" />
@@ -1072,7 +1082,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1161,16 +1171,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/make_change/MakeChange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="70" column="4" lean-forward="false" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+        <state relative-caret-position="-184">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/make_change/MakeChangeUnitTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="116">
+          <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
           <folding />
         </state>
       </provider>

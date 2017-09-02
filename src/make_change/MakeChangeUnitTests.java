@@ -34,7 +34,7 @@ public class MakeChangeUnitTests {
     @Test
     public void totalQuartersToGiveChange() {
         int expected = 1;
-        int actual = MakeChange.calculateTotalDollarsToReturn(1.25);
+        int actual = MakeChange.calculateQuartersToReturn(.25);
         assertEquals(expected, actual);
     }
 
