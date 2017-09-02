@@ -1,3 +1,4 @@
+import averager.GetAverage;
 import gas_mileage.GasMileage;
 import org.junit.Test;
 
@@ -41,6 +42,20 @@ public class UnitTests {
     public void returns5mpg() {
         double expected = 5.0;
         double actual = (GasMileage.returnMilesPerGallon(50, 10));
+        assertEquals(expected, actual, 1);
+    }
+
+    @Test
+    public void returns100mpg() {
+        double expected = 100.0;
+        double actual = (GasMileage.returnMilesPerGallon(100, 1));
+        assertEquals(expected, actual, 1);
+    }
+
+    @Test
+    public void returnsAverageAs1() {
+        double expected = 1.0;
+        double actual = GetAverage.calculateAverage(1, 1,1);
         assertEquals(expected, actual, 1);
     }
 

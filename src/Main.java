@@ -1,9 +1,15 @@
-import gas_mileage.GasMileage;
+import averager.GetAverage;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        GasMileage.main();
+        //PrimitiveVariables.main();
+
+        //GasMileage.main();
+
+        GetAverage.main();
+
+
     }
 }
