@@ -88,5 +88,12 @@ public class UnitTests {
         assertEquals(expected, actual, 0.01);
     }
 
+    @Test
+    public void returns1CentsFor1Penny() {
+        double expected = 0.10;
+        double actual = Jar.calcualateDimeAmount(1);
+        assertEquals(expected, actual, 0.01);
+    }
+
 }
 

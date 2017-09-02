@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f871888-d5a7-42da-8982-2256810f1d35" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jar/Jar.java" afterPath="$PROJECT_DIR$/src/jar/Jar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/UnitTests.java" afterPath="$PROJECT_DIR$/test/UnitTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,8 +35,8 @@
       <file leaf-file-name="UnitTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/UnitTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="85" column="30" lean-forward="false" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+            <state relative-caret-position="335">
+              <caret line="93" column="52" lean-forward="false" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -311,7 +309,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.UnitTests.returns25CentsFor1Quarter">
+  <component name="RunManager" selected="JUnit.UnitTests.returns1CentsFor1Penny">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -325,27 +323,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="JH1" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="UnitTests.returnsAverageAs15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="JH1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests" />
-      <option name="METHOD_NAME" value="returnsAverageAs15" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="UnitTests.returnsAverageAs1667" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -398,6 +375,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UnitTests" />
       <option name="METHOD_NAME" value="returns25CentsFor1Quarter" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UnitTests.returns1CentsFor1Penny" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="JH1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests" />
+      <option name="METHOD_NAME" value="returns1CentsFor1Penny" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -786,18 +784,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTests.returnsAverageAs15" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UnitTests.returnsAverageAs1667" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UnitTests.returnsAverageAs1667asString" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UnitTests.returns25CentsFor1Quarter" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTests.returnsAverageAs1667" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UnitTests.returnsAverageAs1667asString" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UnitTests.returns25CentsFor1Quarter" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UnitTests.returns1CentsFor1Penny" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UnitTests.returns25CentsFor1Quarter" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTests.returnsAverageAs1667asString" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UnitTests.returnsAverageAs1667" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UnitTests.returnsAverageAs15" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UnitTests.returns1CentsFor1Penny" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTests.returns25CentsFor1Quarter" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UnitTests.returnsAverageAs1667asString" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UnitTests.returnsAverageAs1667" />
       </list>
     </recent_temporary>
   </component>
@@ -811,11 +809,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504310137413</updated>
-      <workItem from="1504310138875" duration="7672000" />
+      <workItem from="1504310138875" duration="7768000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="UnitTests_returns1CentsFor1Penny - 2017.09.02 at 10h 41m 41s.xml">
+      <configuration name="UnitTests.returns1CentsFor1Penny" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="UnitTests_returns25CentsFor1Quarter - 2017.09.02 at 10h 40m 04s.xml">
       <configuration name="UnitTests.returns25CentsFor1Quarter" configurationId="JUnit" />
     </history-entry>
@@ -828,11 +829,8 @@
     <history-entry file="UnitTests_returns25CentsFor1Quarter - 2017.09.02 at 10h 40m 25s.xml">
       <configuration name="UnitTests.returns25CentsFor1Quarter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTests_returnsAverageAs1 - 2017.09.02 at 10h 12m 43s.xml">
-      <configuration name="UnitTests.returnsAverageAs1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnitTests_returnsAverageAs15 - 2017.09.02 at 10h 12m 46s.xml">
-      <configuration name="UnitTests.returnsAverageAs15" configurationId="JUnit" />
+    <history-entry file="UnitTests_returns25CentsFor1Quarter - 2017.09.02 at 10h 40m 34s.xml">
+      <configuration name="UnitTests.returns25CentsFor1Quarter" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UnitTests_returnsAverageAs15 - 2017.09.02 at 10h 12m 55s.xml">
       <configuration name="UnitTests.returnsAverageAs15" configurationId="JUnit" />
@@ -848,7 +846,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7672000" />
+    <option name="totallyTimeSpent" value="7768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -857,13 +855,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53626376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53626376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -967,8 +965,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/UnitTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="85" column="30" lean-forward="false" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+        <state relative-caret-position="335">
+          <caret line="93" column="52" lean-forward="false" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
