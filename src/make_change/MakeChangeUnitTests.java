@@ -38,6 +38,27 @@ public class MakeChangeUnitTests {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void totalDimesToGiveChange1() {
+        int expected = 1;
+        int actual = MakeChange.calculateDimesToReturn(.10);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void returns5dimes() {
+        int expected = 5;
+        int actual = MakeChange.calculateDimesToReturn(.50);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void returns1nickel() {
+        int expected = 1;
+        int actual = MakeChange.calculateNickelsToReturn(.05);
+        assertEquals(expected, actual);
+    }
+
 
 
 }

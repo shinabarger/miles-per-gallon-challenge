@@ -37,18 +37,33 @@ public class MakeChange {
         System.out.println("Total change to give back to customer is " + totalChangeToGive + ".");
 
         dollarsToReturn = calculateTotalDollarsToReturn(totalChangeToGive);
-        totalChangeToGive = totalChangeToGive - dollarsToReturn;
+        totalChangeToGive =- dollarsToReturn;
 
         quartersToReturn = calculateQuartersToReturn(totalChangeToGive);
+        totalChangeToGive =- (quartersToReturn*.25);
 
-        //give back quarters
+        dimesToReturn = calculateDimesToReturn(totalChangeToGive);
+        totalChangeToGive =- (dimesToReturn*.10);
 
-        //give back dimes
-
-        //give back nickels
+        nickelsToReturn = calculateNickelsToReturn(totalChangeToGive);
+        totalChangeToGive =- (dimesToReturn*.05);
 
         //give back pennies
 
+    }
+
+
+
+    static double subtractItemAmountFromCashReceived(double priceOfTheItem, double totalPaymentReceived) {
+        double totalChangeToGive;
+
+        if (totalPaymentReceived >= priceOfTheItem) {
+            totalChangeToGive = totalPaymentReceived - priceOfTheItem;
+        } else {
+            System.out.println("Sorry, that's not enough cash. Please give us MORE");
+            totalChangeToGive = 0.00;
+        }
+        return totalChangeToGive;
     }
 
     static int calculateTotalDollarsToReturn(double totalChangeToGive) {
@@ -72,16 +87,25 @@ public class MakeChange {
         return quartersToReturn;
     }
 
-    static double subtractItemAmountFromCashReceived(double priceOfTheItem, double totalPaymentReceived) {
-        double totalChangeToGive;
+    static int calculateDimesToReturn(double totalChangeToGive) {
+        double temporaryChangeToGive = totalChangeToGive;
+        int dimesToReturn = 0;
+        do {
+            dimesToReturn = dimesToReturn + 1;
+            temporaryChangeToGive = temporaryChangeToGive - 0.10;
+        } while (temporaryChangeToGive >= 0.10);
+        return dimesToReturn;
+    }
 
-        if (totalPaymentReceived >= priceOfTheItem) {
-            totalChangeToGive = totalPaymentReceived - priceOfTheItem;
-        } else {
-            System.out.println("Sorry, that's not enough cash. Please give us MORE");
-            totalChangeToGive = 0.00;
-        }
-        return totalChangeToGive;
+    static int calculateNickelsToReturn(double totalChangeToGive) {
+        double temporaryChangeToGive = totalChangeToGive;
+        int nickelsToReturn = 0;
+        do {
+            nickelsToReturn = nickelsToReturn + 1;
+            temporaryChangeToGive = temporaryChangeToGive - 0.05;
+        } while (temporaryChangeToGive >= 0.05);
+        return nickelsToReturn;
+
     }
 
 }
