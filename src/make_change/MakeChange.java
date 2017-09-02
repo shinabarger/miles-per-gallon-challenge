@@ -38,7 +38,13 @@ public class MakeChange {
 
     public static double subtractItemAmountFromCashReceived(double priceOfTheItem, double totalPaymentReceived) {
         double totalChangeToGive;
-        totalChangeToGive = totalPaymentReceived - priceOfTheItem;
+
+        if(totalPaymentReceived >= priceOfTheItem) {
+            totalChangeToGive = totalPaymentReceived - priceOfTheItem;
+        } else {
+            System.out.println("Sorry, that's not enough cash. Please give us MORE");
+            totalChangeToGive = 0.00;
+        }
         return totalChangeToGive;
     }
 
