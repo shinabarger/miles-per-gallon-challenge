@@ -40,19 +40,19 @@ public class MakeChange {
         System.out.println("Total change to give back to customer is " + totalChangeToGive + ".");
 
         dollarsToReturn = calculateTotalDollarsToReturn(totalChangeToGive);
-        totalChangeToGive = -dollarsToReturn;
+        totalChangeToGive = totalChangeToGive - dollarsToReturn;
 
         quartersToReturn = calculateQuartersToReturn(totalChangeToGive);
-        totalChangeToGive = -(quartersToReturn * .25);
+        totalChangeToGive = totalChangeToGive - (quartersToReturn * .25);
 
         dimesToReturn = calculateDimesToReturn(totalChangeToGive);
-        totalChangeToGive = -(dimesToReturn * .10);
+        totalChangeToGive = totalChangeToGive - (dimesToReturn * .10);
 
         nickelsToReturn = calculateNickelsToReturn(totalChangeToGive);
-        totalChangeToGive = -(nickelsToReturn * .05);
+        totalChangeToGive = totalChangeToGive - (nickelsToReturn * .05);
 
         penniesToReturn = calculatePenniesToReturn(totalChangeToGive);
-        totalChangeToGive = -(penniesToReturn * .01);
+        totalChangeToGive = totalChangeToGive - (penniesToReturn * .01);
 
         System.out.println("Your change is: ");
         System.out.println("Dollars: " + dollarsToReturn);
