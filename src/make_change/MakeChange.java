@@ -37,22 +37,30 @@ public class MakeChange {
         System.out.println("Total change to give back to customer is " + totalChangeToGive + ".");
 
         dollarsToReturn = calculateTotalDollarsToReturn(totalChangeToGive);
-        totalChangeToGive =- dollarsToReturn;
+        totalChangeToGive = -dollarsToReturn;
 
         quartersToReturn = calculateQuartersToReturn(totalChangeToGive);
-        totalChangeToGive =- (quartersToReturn*.25);
+        totalChangeToGive = -(quartersToReturn * .25);
 
         dimesToReturn = calculateDimesToReturn(totalChangeToGive);
-        totalChangeToGive =- (dimesToReturn*.10);
+        totalChangeToGive = -(dimesToReturn * .10);
 
         nickelsToReturn = calculateNickelsToReturn(totalChangeToGive);
-        totalChangeToGive =- (dimesToReturn*.05);
+        totalChangeToGive = -(nickelsToReturn * .05);
+
+        penniesToReturn = calculatePenniesToReturn(totalChangeToGive);
+        totalChangeToGive = -(penniesToReturn * .01);
+
+        System.out.println("Your change is: ");
+        System.out.println("Dollars: " + dollarsToReturn);
+        System.out.println("Quarters: " + quartersToReturn);
+        System.out.println("Dimes: " + dimesToReturn);
+        System.out.println("Nickels: " + nickelsToReturn);
+        System.out.println("Pennies: " + penniesToReturn);
 
         //give back pennies
 
     }
-
-
 
     static double subtractItemAmountFromCashReceived(double priceOfTheItem, double totalPaymentReceived) {
         double totalChangeToGive;
@@ -80,30 +88,30 @@ public class MakeChange {
 
         double temporaryChangeToGive = totalChangeToGive;
         int quartersToReturn = 0;
-        do {
+        while (temporaryChangeToGive >= 0.25) {
             quartersToReturn = quartersToReturn + 1;
             temporaryChangeToGive = temporaryChangeToGive - 0.25;
-        } while (temporaryChangeToGive >= 0.25);
+        }
         return quartersToReturn;
     }
 
     static int calculateDimesToReturn(double totalChangeToGive) {
         double temporaryChangeToGive = totalChangeToGive;
         int dimesToReturn = 0;
-        do {
+        while (temporaryChangeToGive >= 0.10) {
             dimesToReturn = dimesToReturn + 1;
             temporaryChangeToGive = temporaryChangeToGive - 0.10;
-        } while (temporaryChangeToGive >= 0.10);
+        }
         return dimesToReturn;
     }
 
     static int calculateNickelsToReturn(double totalChangeToGive) {
         double temporaryChangeToGive = totalChangeToGive;
         int nickelsToReturn = 0;
-        do {
+        while (temporaryChangeToGive >= 0.05) {
             nickelsToReturn = nickelsToReturn + 1;
             temporaryChangeToGive = temporaryChangeToGive - 0.05;
-        } while (temporaryChangeToGive >= 0.05);
+        }
         return nickelsToReturn;
 
     }
@@ -111,10 +119,10 @@ public class MakeChange {
     static int calculatePenniesToReturn(double totalChangeToGive) {
         double temporaryChangeToGive = totalChangeToGive;
         int penniesToReturn = 0;
-        do {
+        while (temporaryChangeToGive >= 0.01) {
             penniesToReturn = penniesToReturn + 1;
             temporaryChangeToGive = temporaryChangeToGive - 0.01;
-        } while (temporaryChangeToGive >= 0.01);
+        }
         return penniesToReturn;
     }
 }
