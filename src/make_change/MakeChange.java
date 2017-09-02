@@ -23,7 +23,6 @@ public class MakeChange {
         double totalChangeToGive;
         double changeLeftToGive;
 
-
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Hi there. Welcome to POS Changemaker 9000.");
@@ -38,6 +37,9 @@ public class MakeChange {
         System.out.println("Total change to give back to customer is " + totalChangeToGive + ".");
 
         dollarsToReturn = calculateTotalDollarsToReturn(totalChangeToGive);
+        totalChangeToGive = totalChangeToGive - (dollarsToReturn * 1.00);
+
+        quartersToReturn = calculateQuartersToReturn(totalChangeToGive);
 
         //give back quarters
 
@@ -47,22 +49,29 @@ public class MakeChange {
 
         //give back pennies
 
-
     }
 
-    public static int calculateTotalDollarsToReturn( double totalChangeToGive) {
+
+    public static int calculateTotalDollarsToReturn(double totalChangeToGive) {
         double temporaryChangeToGive = totalChangeToGive;
         int dollarsToReturn = 0;
-        do { dollarsToReturn = dollarsToReturn + 1;
+        do {
+            dollarsToReturn = dollarsToReturn + 1;
             temporaryChangeToGive = temporaryChangeToGive - 1.00;
         } while (temporaryChangeToGive >= 1.00);
         return dollarsToReturn;
     }
 
-    public static double subtractItemAmountFromCashReceived(double priceOfTheItem, double totalPaymentReceived) {
+    public static int calculateQuartersToReturn(double totalChangeToGive) {
+        int quartersToReturn = 0;
+
+        return quartersToReturn;
+    }
+
+    static double subtractItemAmountFromCashReceived(double priceOfTheItem, double totalPaymentReceived) {
         double totalChangeToGive;
 
-        if(totalPaymentReceived >= priceOfTheItem) {
+        if (totalPaymentReceived >= priceOfTheItem) {
             totalChangeToGive = totalPaymentReceived - priceOfTheItem;
         } else {
             System.out.println("Sorry, that's not enough cash. Please give us MORE");

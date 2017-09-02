@@ -1,4 +1,5 @@
-import make_change.MakeChange;
+package make_change;
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -27,6 +28,13 @@ public class MakeChangeUnitTests {
     public void totalDollarsToGiveChange() {
         int expected = 1;
         int actual = MakeChange.calculateTotalDollarsToReturn(1.00);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void totalQuartersToGiveChange() {
+        int expected = 1;
+        int actual = MakeChange.calculateTotalDollarsToReturn(1.25);
         assertEquals(expected, actual);
     }
 
