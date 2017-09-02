@@ -13,14 +13,16 @@ public class MakeChange {
     }
 
     private static void runTheInstructions() {
-        double quartersToReturn;
-        double dimesToReturn;
-        double nickelsToReturn;
-        double penniesToReturn;
+        int dollarsToReturn = 0;
+        int quartersToReturn = 0;
+        int dimesToReturn = 0;
+        int nickelsToReturn = 0;
+        int penniesToReturn = 0;
         double priceOfTheItem;
         double totalPaymentReceived;
         double totalChangeToGive;
         double changeLeftToGive;
+
 
         Scanner scan = new Scanner(System.in);
 
@@ -33,7 +35,28 @@ public class MakeChange {
         totalPaymentReceived = scan.nextDouble();
 
         totalChangeToGive = subtractItemAmountFromCashReceived(priceOfTheItem, totalPaymentReceived);
+        System.out.println("Total change to give back to customer is " + totalChangeToGive + ".");
 
+        dollarsToReturn = calculateTotalDollarsToReturn(totalChangeToGive);
+
+        //give back quarters
+
+        //give back dimes
+
+        //give back nickels
+
+        //give back pennies
+
+
+    }
+
+    public static int calculateTotalDollarsToReturn( double totalChangeToGive) {
+        double temporaryChangeToGive = totalChangeToGive;
+        int dollarsToReturn = 0;
+        do { dollarsToReturn = dollarsToReturn + 1;
+            temporaryChangeToGive = temporaryChangeToGive - 1.00;
+        } while (temporaryChangeToGive >= 1.00);
+        return dollarsToReturn;
     }
 
     public static double subtractItemAmountFromCashReceived(double priceOfTheItem, double totalPaymentReceived) {

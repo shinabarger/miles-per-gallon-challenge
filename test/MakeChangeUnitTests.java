@@ -23,6 +23,13 @@ public class MakeChangeUnitTests {
         assertEquals(expected, actual, 0.01);
     }
 
+    @Test
+    public void totalDollarsToGiveChange() {
+        int expected = 1;
+        int actual = MakeChange.calculateTotalDollarsToReturn(1.00);
+        assertEquals(expected, actual);
+    }
+
 
 
 }
