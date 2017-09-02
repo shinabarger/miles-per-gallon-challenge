@@ -1,0 +1,6 @@
+primitive_variables problem (5 points):
+Create a package named primitive_variables and copy the program named PrimitiveVariables from the "Java Fundamentals/Basics Simple Arithmetic" notes.
+Change the variables "num1", "num2", and "answer" to be of type "double" (on my web, they are of type "int"). Also change the call to nextInt() to nextDouble().
+Run the program with good input numbers and insert the results in the appropriate section of the JH1 worksheet. Lastly, try running your program with numbers that are not integers (i.e. something like "xyz") . Enter in a comment of what happened in the appropriate section in the JH1 Worksheet.
+
+
