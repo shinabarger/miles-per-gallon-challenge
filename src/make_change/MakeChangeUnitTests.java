@@ -59,6 +59,20 @@ public class MakeChangeUnitTests {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void returns5nickels() {
+        int expected = 5;
+        int actual = MakeChange.calculateNickelsToReturn(.25);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void returns1penny() {
+        int expected = 1;
+        int actual = MakeChange.calculatePenniesToReturn(.01);
+        assertEquals(expected, actual);
+    }
+
 
 
 }

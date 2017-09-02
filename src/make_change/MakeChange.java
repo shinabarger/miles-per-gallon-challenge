@@ -108,4 +108,13 @@ public class MakeChange {
 
     }
 
+    static int calculatePenniesToReturn(double totalChangeToGive) {
+        double temporaryChangeToGive = totalChangeToGive;
+        int penniesToReturn = 0;
+        do {
+            penniesToReturn = penniesToReturn + 1;
+            temporaryChangeToGive = temporaryChangeToGive - 0.01;
+        } while (temporaryChangeToGive >= 0.01);
+        return penniesToReturn;
+    }
 }
