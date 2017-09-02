@@ -1,4 +1,4 @@
-import jar.Jar;
+import make_change.MakeChange;
 
 public class Main {
 
@@ -10,7 +10,9 @@ public class Main {
 
         //GetAverage.main();
 
-        Jar.main();
+        //Jar.main();
+
+        MakeChange.main();
 
     }
 }

@@ -1,3 +1,4 @@
+import make_change.MakeChange;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -10,9 +11,9 @@ public class MakeChangeUnitTests {
 
     @Test
     public void firstTest() {
-        String expected = "Test";
-        String actual = "Test";
-        assertEquals(expected, actual);
+        Double expected = 1.00;
+        Double actual = MakeChange.subtractItemAmountFromCashReceived(5.00, 6.00);
+        assertEquals(expected, actual, 0.01);
     }
 
 }
