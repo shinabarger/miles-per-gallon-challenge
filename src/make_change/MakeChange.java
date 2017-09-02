@@ -1,5 +1,6 @@
 package make_change;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /**
@@ -34,6 +35,8 @@ public class MakeChange {
         totalPaymentReceived = scan.nextDouble();
 
         totalChangeToGive = subtractItemAmountFromCashReceived(priceOfTheItem, totalPaymentReceived);
+        DecimalFormat decimalFormat = new DecimalFormat("0.00");
+        totalChangeToGive = Double.parseDouble(decimalFormat.format(totalChangeToGive));
         System.out.println("Total change to give back to customer is " + totalChangeToGive + ".");
 
         dollarsToReturn = calculateTotalDollarsToReturn(totalChangeToGive);
@@ -57,8 +60,6 @@ public class MakeChange {
         System.out.println("Dimes: " + dimesToReturn);
         System.out.println("Nickels: " + nickelsToReturn);
         System.out.println("Pennies: " + penniesToReturn);
-
-        //give back pennies
 
     }
 
