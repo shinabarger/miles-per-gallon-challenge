@@ -46,13 +46,12 @@ public class Jar {
 
         System.out.println("The jar contains precisely " + totalDollarAmount + " dollars and " + totalCentsAmount + " cents.");
 
-
     }
     public static String calculateJarTotal(double quarters, double nickels, double dimes, double pennies) {
         double totalAmount = 0.0;
-        String total = "";
+        String total;
 
-        totalAmount +=  Jar.calculateQuarterAmount(quarters);
+        totalAmount += Jar.calculateQuarterAmount(quarters);
         totalAmount += Jar.calcualateDimeAmount(dimes);
         totalAmount += Jar.calcualateNickelAmount(nickels);
         totalAmount += Jar.calcualatePenniesAmount(pennies);
@@ -61,23 +60,23 @@ public class Jar {
         return total;
     }
 
-    public  static double calculateQuarterAmount(double numberOfQuarters) {
-        double quarterValue = 0.25*numberOfQuarters;
+    public static double calculateQuarterAmount(double numberOfQuarters) {
+        double quarterValue = 0.25 * numberOfQuarters;
         return quarterValue;
     }
 
     public static double calcualateDimeAmount(double numberOfDimes) {
-        double dimeValue = 0.10*numberOfDimes;
+        double dimeValue = 0.10 * numberOfDimes;
         return dimeValue;
     }
 
     public static double calcualateNickelAmount(double numberOfNickels) {
-        double nickelValue = 0.05*numberOfNickels;
+        double nickelValue = 0.05 * numberOfNickels;
         return nickelValue;
     }
 
     public static double calcualatePenniesAmount(double numberOfPennies) {
-        double pennieValue = 0.01*numberOfPennies;
+        double pennieValue = 0.01 * numberOfPennies;
         return pennieValue;
     }
 }
